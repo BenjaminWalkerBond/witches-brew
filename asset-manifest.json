@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/BenjaminWalkerBond/witches-brew/static/css/main.82affa1e.chunk.css",
+    "main.js": "/BenjaminWalkerBond/witches-brew/static/js/main.3d9aee67.chunk.js",
+    "main.js.map": "/BenjaminWalkerBond/witches-brew/static/js/main.3d9aee67.chunk.js.map",
+    "runtime-main.js": "/BenjaminWalkerBond/witches-brew/static/js/runtime-main.4e2b2551.js",
+    "runtime-main.js.map": "/BenjaminWalkerBond/witches-brew/static/js/runtime-main.4e2b2551.js.map",
+    "static/css/2.bedf9445.chunk.css": "/BenjaminWalkerBond/witches-brew/static/css/2.bedf9445.chunk.css",
+    "static/js/2.9836bed1.chunk.js": "/BenjaminWalkerBond/witches-brew/static/js/2.9836bed1.chunk.js",
+    "static/js/2.9836bed1.chunk.js.map": "/BenjaminWalkerBond/witches-brew/static/js/2.9836bed1.chunk.js.map",
+    "static/js/3.b948f851.chunk.js": "/BenjaminWalkerBond/witches-brew/static/js/3.b948f851.chunk.js",
+    "static/js/3.b948f851.chunk.js.map": "/BenjaminWalkerBond/witches-brew/static/js/3.b948f851.chunk.js.map",
+    "index.html": "/BenjaminWalkerBond/witches-brew/index.html",
+    "static/css/2.bedf9445.chunk.css.map": "/BenjaminWalkerBond/witches-brew/static/css/2.bedf9445.chunk.css.map",
+    "static/css/main.82affa1e.chunk.css.map": "/BenjaminWalkerBond/witches-brew/static/css/main.82affa1e.chunk.css.map",
+    "static/js/2.9836bed1.chunk.js.LICENSE.txt": "/BenjaminWalkerBond/witches-brew/static/js/2.9836bed1.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/BenjaminWalkerBond/witches-brew/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e2b2551.js",
+    "static/css/2.bedf9445.chunk.css",
+    "static/js/2.9836bed1.chunk.js",
+    "static/css/main.82affa1e.chunk.css",
+    "static/js/main.3d9aee67.chunk.js"
+  ]
+}
