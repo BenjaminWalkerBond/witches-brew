@@ -5,7 +5,10 @@ class Searchbar extends Component{
     constructor(props){
         super(props);
         this.state = {
-            queryString : ""
+            queryString : "",
+            isLoaded: false,
+            error: null,
+            pageNumber: 1
         }
         this.handleChange = this.handleChange.bind(this);
     }
@@ -18,14 +21,35 @@ class Searchbar extends Component{
 
     }
     handleSubmit(evt){
+
+        var targetUrl = 'https://us-central1-rvrslkupdb.cloudfunctions.net/getByName?findthis=' + this.state.queryString + "&page=" + this.state.pageNumber;
+        fetch(targetUrl)
+        .then(res => res.json())
+        .then(
+            (result) => {
+                this.setState({
+                    isLoaded: true,
+                    items: result.items
+                }); 
+            },
+
+        // Handle error from fetch with an error instead of catch block.
+            (error) => {
+                this.setState({
+                    isLoaded: true,
+                    error
+                });
+            }
+            
+        )
         
 
     }
     render(){
         return(
             
-            <div className="bg-white shadow p-4 flex w-full lg:w-auto">
-                <span className="w-auto flex justify-end items-center text-gray-500 p-2">
+            <div className="bg-white shadow p-4 flex w-1/2 lg:w-auto">
+                <span className="flex justify-end items-center text-gray-500 p-2">
                     <i className="material-icons text-3xl hidden sm:flex">search</i>
                 </span>
                 <input className="w-full rounded p-2" type="text" name="queryString" value={this.state.queryString} placeholder="Try 'Los Angeles'" onChange={this.handleChange}/>

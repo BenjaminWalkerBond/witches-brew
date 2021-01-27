@@ -25,14 +25,14 @@ class Navbar extends Component{
     
     return (
       <div>
-        <nav className="relative flex flex-nowrap items-center justify-between px-2 py-3 navbar-expand-lg bg-blue-400 mb-3">
-          <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+        <nav className="relative flex flex-nowrap items-center px-2 py-3 navbar-expand-lg bg-blue-400 mb-3">
+          <div className="flex justify-between flex-nowrap w-full">
 
-            <div className="container px-4 mx-auto flex flex-nowrap items-center justify-between">
-              <img className="transform scale-1 custom"alt="amaretto" src={logo}/>
-              <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+            <div className="flex items-center px-1 lg:w-1/2 w-full">
+              <img className="transform scale-1 custom px-2" alt="amaretto" src={logo}/>
+              <div className="relative flex">
                 <a
-                  className="text-md tracking-widest font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white"
+                  className="text-md tracking-widest font-bold leading-relaxed inline-block mr-4 px-2 uppercase text-white"
                   href="#pablo"
                 >
                   Witches Brew
@@ -40,7 +40,7 @@ class Navbar extends Component{
             </div>
             
               <button
-                className="text-white cursor-pointer text-3xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+                className="text-white cursor-pointer text-3xl flex leading-none ml-auto px-3 py-1 border border-solid border-transparent rounded bg-transparent lg:hidden outline-none focus:outline-none"
                 type="button"
                 onClick={this.handleDropdown}
                 
@@ -50,7 +50,7 @@ class Navbar extends Component{
             </div>
             <div
               className={
-                this.state.navOpen ? 'lg:flex flex-grow justify-items-stretch': 'lg:flex flex-grow justify-items-stretch hidden'}
+                this.state.navOpen ? 'container flex-column': 'lg:flex flex-grow justify-items-stretch hidden'}
               
               id="example-navbar-danger"
             >
