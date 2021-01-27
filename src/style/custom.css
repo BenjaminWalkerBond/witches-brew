@@ -1,0 +1,777 @@
+
+nav {
+	min-height: 50px;
+	background-color: #ff971d;
+	position:fixed;
+}
+
+form{
+	padding: 6px;
+	border-radius: 33px;
+}
+
+a:hover{
+
+}
+
+ul, li{
+	list-style: none;
+}
+
+h1{
+	color:white;
+}
+
+
+body{
+	overflow: hidden;F
+	background-color:#ffffff;
+}
+
+.btn-primary{
+    background-color: #550C18;
+    color: white;
+    border :none;
+}
+
+.btn-primary:hover {
+    background-color: #550C18; !important;
+    color: white;
+}
+
+.btn.btn-primary.load-more{
+  margin: 50px;
+  margin-bottom: 210px;
+  width: 150px;
+}
+
+.card{
+	max-width: 230px;
+	max-height: 500px;
+	min-width: 90px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.card-body{
+	max-width: 230px;
+  min-width: 90px;
+  max-height: 230px;
+  padding-bottom: 0px;
+	overflow: hidden;
+}
+
+.card-body h4{
+	font-size: 2.2vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+.card-body p{
+	font-size: 0.8em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+
+.card-img-top{
+	max-width: 100%;
+  max-height: 100%;
+	margin: auto;
+}
+/* styles for tags */
+
+.chips{
+    border-radius: 15px !important;
+    font-size: 20px;
+    width: auto;
+}
+
+.chipsContainer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:20px;
+
+}
+
+.browse-selection{
+    margin-right:10px;
+    margin-bottom:10px;
+    margin-top:5px;
+}
+
+#spirits{
+    width: 215px;
+}
+#juice{
+    width: 215px;
+}
+#others{
+    width: 215px;
+}
+
+
+.label{
+  display: block;
+}
+
+.listItem.negative p{
+    text-decoration: line-through;
+    color: red;
+}
+
+.dark-switch{
+    margin-left:0px;
+}
+
+#dark-switch-mobile{
+	display: none;
+	margin-left: 10px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.rating{
+  width: 80px;
+}
+
+
+.nav-item{
+	text-decoration: none;
+	text-align: left;
+	margin-right: 2vw;
+	margin-top: 6vw;
+}
+
+#login-button-mobile{
+  display: none;
+}
+
+.navbar-brand{
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+
+.navbar-brand img{
+	width: 60px;
+	display: inline-block;
+	float: left;
+}
+
+.navbar-brand h1{
+	font-size: 30px;
+	margin-top: 40px;
+	color: black;
+	float: right;
+}
+
+.navbar-brand p{  
+  font-size: 12px;
+  margin-right: 15px;
+  display: block;
+  margin-top: 70px;
+  color: black !important;
+}
+
+#navsearch{
+	margin-right: 0px;
+	margin-top: 5.8vw;
+}
+
+  .name-search-bar{
+    display: none;
+  }
+
+#content-window{
+	transition: margin-left .5s;
+}
+
+.form-control{
+	padding: 16px;
+	border-radius: 33px;
+}
+
+.pad{margin-left: 15px;}
+
+.namesearch-container{
+  width: 330px;
+  margin: auto;
+  align-self: center;
+  align-content: center;
+  display: block;
+  padding-bottom: 20px;
+}
+
+.form-control.py-2.border-right-0.border.typeahead.body-search{
+  position: relative;
+}
+
+.form-control.py-2.border-right-0.border.typeahead.body-search.tt-hint{
+  position: absolute;
+}
+
+.form-control.py-2.border-right-0.border.typeahead.body-search.tt-input{
+  position: relative;
+  left: 0;
+}
+
+#search-cocktail-button-body{
+  border: none; 
+  top: 4px; 
+  right: -5px;
+  position: absolute; 
+}
+
+
+.input-group-text{
+	border-radius: 33px;
+}
+
+#content-wrapper{
+	transition: margin-left .5s;
+	transition: margin 0.5s;
+	margin-left: 240px;
+}
+
+ /* The sidebar menu */
+.sidenav {
+  align-items: stretch;
+  height: 86%; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-top: 70px;
+  transition: 0.5s;
+  background-color:#f9f6f7;
+}
+
+
+.dropdown-btn {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+    color: #d65a31;
+}
+
+/* Dropdown container  */
+.dropdown-container {
+    display: none;
+    padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+}
+
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav p {
+  font-size: 18px;
+  color: black;
+  padding: 3px;
+  margin-bottom: 0px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #1a7dff;
+}
+
+.sidenav .closebtn {
+ 
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+  #side-navigation{
+    width: 330px;
+  }
+
+.openbtn {
+  font-size: 12px;
+  cursor: pointer;
+  background-color: #ff971d;
+  color: white;
+  padding: 10px 40px;
+  border: none;
+  left: 0;
+  display: inline-block;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.btn{
+	width: 80px;
+	font-size: 16px;
+}
+
+.btn.btn-default.addchip{
+  width: 35px;
+  font-size: 30px;
+  padding: 5px;
+    font-weight: bolder;
+    color:green
+}
+
+.btn.btn-default.removechip{
+    width: 35px;
+    font-size: 30px;
+    padding: 5px;
+    font-weight: bolder;
+    color:red
+}
+
+.add-btn{
+    color:black;
+}
+
+.btn.btn-primary.submit-button{
+  margin-bottom: 100px;
+}
+
+.add-btn:hover {
+    color: #d65a31;
+}
+
+
+/* Style page content */
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+
+}
+
+.form-inline .form-control{
+  width: 230px !important;
+}
+
+.input-group > .typeahead {
+	flex: 1 1 auto;
+	width: auto;
+ }
+
+.typeahead, .tt-query, .tt-hint {
+	/*border: 2px solid #CCCCCC;*/
+	/*border-radius: 5px;*/
+	/*font-size: 22px;*/
+	/*height: 30px;*/
+	/*line-height: 30px;*/
+	/*outline: medium none;*/
+	/*padding: 8px 12px;*/
+	/*width: 100px;*/
+  }
+  .typeahead {
+	background-color: white;
+  }
+  .typeahead:focus {
+	border: 2px solid #0097CF;
+  }
+  .tt-query {
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  }
+  .tt-hint {
+	color: #999999;
+  }
+
+  .tt-input{
+	  width:255px;
+      color:white;
+  }
+
+  .custom-control-label{
+      margin-left: 0px;
+      font-size: 20px;
+      text-align: center;
+  }
+
+
+  .tt-menu {
+	background-color: white;
+	border: 1px solids rgba(0, 0, 0, 0.2);
+	border-radius: 8px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	margin-top: 12px;
+	padding: 8px 0;
+	width: 422px;
+  }
+  .tt-suggestion {
+	font-size: 22px;  
+	padding: 3px 20px;
+  }
+  .tt-suggestion:hover {
+         cursor: pointer;
+         background-color: #550C18;
+         color: #FFFFFF;
+     }
+  .tt-suggestion p {
+	margin: 0;
+  }
+
+  /* Scrollable panel CSS */
+
+  .panel-head-wrapper{
+    /*background: white;*/
+    overflow: hidden;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+
+  .panel-head-wrapper h2{
+    text-align: center;
+    font-size: 3vw;
+  }
+
+ .scrollable-panel{
+     position: absolute;
+     min-height:620px;
+     overflow-y: scroll;
+     width:85%;
+     margin: 0;
+     padding: 0;
+     height: 10vh;    
+  }
+
+
+  #main-panel{display: block;}
+
+  #about{display: none;}
+
+  #services{display: none;}
+
+  #name-search{display: none;}
+
+  #ingredient-search{display: none;}
+
+  #browse{display: none;}
+
+  #alcohol{display: none;}
+
+  #juices{display: none;}
+
+  #fruit{display: none;}
+
+  #other{display: none;}
+
+  #favorites{display: none;}
+
+  #addADrink{
+    margin: 0;
+    min-width:200px;
+  }
+
+/* login popup stuff */
+
+ /* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 2; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; 
+  border: 1px solid #888;
+  width: 40%; 
+}
+
+.modal-content-recipe {
+  background-color: #fefefe;
+  margin: 5px auto; 
+  border: 1px solid #888;
+  width: 50%; 
+}
+
+.modal-container {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 3px;
+}
+
+.modal-container h5 {
+  padding-left: 10px;
+}
+
+.modal-container p {
+  padding-left: 25px;
+}
+
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+#loginimg{
+	margin: auto;
+	width: 5vw;
+}
+
+#drinkimg{
+  margin-left: 14vw;
+  width: 40%;
+}
+
+.login-button-container{
+  position: absolute;
+  right: -800px;
+  padding-bottom: 20px;
+}
+
+.avatar {
+  vertical-align: middle;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  line-height: 1.5;
+  vertical-align: top;
+  position: relative;
+  text-align: center;
+}
+#add-drink-mobile-open{
+  visibility: hidden;
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+} 
+
+
+
+
+
+
+ /* media queries */
+@media screen and (min-width: 1400px) {
+
+  #content-wrapper{margin: auto;}
+}
+
+@media screen and (min-width: 1200px) {
+	.navbar-brand img{
+	width: 60px;
+	}
+.navbar-brand p{ 
+  font-size: 12px;
+  margin-left: 90px;
+  display: block;
+  margin-top: 70px;
+  color: black !important;
+
+	}
+	.btn{
+		width: 80px;
+		font-size: 16px;
+	}
+
+  .btn.btn-default.addchip{
+  width: 35px;
+  font-size: 16px;
+	}
+	.card-body h4{
+		font-size: 21px;
+	}
+
+	.card-body p{
+		font-size: 16px;
+	}
+
+  .panel-head-wrapper h2{font-size: 35px;}
+
+	
+} 
+
+
+
+
+
+@media screen and (max-width: 990px) {
+
+  .sidenav {
+  height: 95%;
+  overflow-y: auto;
+	}
+  .navbar-brand{
+    font-size: 20px;
+	}
+.navbar-brand img{
+  height: 35px;
+  width: 22px;
+  }
+
+#sideopen{
+  width: 50%;
+  white-space: nowrap;
+}
+#add-drink-mobile-open{
+  visibility: visible;
+}
+
+#login-button-mobile{
+  display: block;
+	}
+
+#login-button-desktop{
+  display: none;
+	}
+
+	.btn{
+		width: 70px;
+		font-size: 12px;
+	}
+
+  #navsearch{display: none;}
+
+  .navbar-brand h1{
+	font-size: 22px;
+	margin-top: 10px;
+	color: black;
+	float: right;
+	}
+
+.navbar-brand p{  
+  font-size: 10px;  display: block;
+  margin-top: 30px;
+  color: black !important;
+	}
+
+
+
+  .name-search-bar{
+    display: block;
+  	}
+
+	.card-body p{
+		font-size: 16px;
+	}
+	.card-body h4{
+		font-size: 18px;
+	}
+	#side-navigation{
+    border:none;
+		width: 0;
+	}
+	#content-wrapper{
+		margin: auto;
+	}
+  /* Modal Content/Box */
+.modal-content {
+  width: 90%; 
+}
+
+.modal-content-recipe {
+  background-color: #fefefe;
+  margin: 5px auto; 
+  border: 1px solid #888;
+  width: 80%; 
+}
+
+.panel-head-wrapper h2{font-size: 16px;}
+ 
+
+
+.star-rating-card {
+  line-height:25px;
+  font-size:0.9em;
+}
+
+.star-rating .fa-star{color: orange;}
+
+.star-rating-modal {
+  margin-left: 25px;
+  line-height:32px;
+  font-size:1.25em;
+  }
+
+}
+
+@media screen and (max-width: 350px) {
+	#dark-switch-desktop{
+		display: none;
+	}
+
+	#dark-switch-mobile{
+		display: inline-block;
+	}
+	  
+} 
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-width: 450px) {
+
+  
+} 
+
+
